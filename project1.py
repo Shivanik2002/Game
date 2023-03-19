@@ -14,15 +14,7 @@ while True:
 
         if yourchoice==1:           
             print("You select Rock")
-            yourchoice = "Rock"
-
-        elif yourchoice==2:
-            print("You select paper") 
-            yourchoice = "Paper"   
-
-        elif yourchoice==3:
-            print("You select Scissor")
-            yourchoice = "Scissor"    
+            yourchoice = "Rock"  
 
         else:
             print("Invalid Choice")
@@ -50,10 +42,6 @@ while True:
         print("You win the game:")          
         print("Score is :","your score :",youwin,"computer score :",computerwin,sep=" ")
 
-    elif computerwin>youwin:
-        print("You lose the game . Computer win the game:")    
-        print("Score is:","Your score",youwin,"Computer score:",computerwin,sep=" ")
-
     else:
         print("Match Drewn")    
         print("Score is :","Your score :",youwin,"computer score :",computerwin,sep=" ")
@@ -65,5 +53,3 @@ while True:
 
     else:
         break    
-
-print("Thank you for using code")
